@@ -35,7 +35,7 @@ function handleCardClick() {
 }
 
 function getRandomCardImage(value) {
-    return `card${value}.png`;
+    return `Assets/card${value}.png`;
 }
 
 function checkForMatch() {
@@ -50,8 +50,8 @@ function checkForMatch() {
         setTimeout(() => {
             card1.classList.remove('face-up');
             card2.classList.remove('face-up');
-            card1.style.backgroundImage = `url('card.jpg')`;
-            card2.style.backgroundImage = `url('card.jpg')`;
+            card1.style.backgroundImage = `url('./Assets/card.jpg')`;
+            card2.style.backgroundImage = `url('./Assets/card.jpg')`;
             flippedCards = [];
             checkForWin();
         }, 1000);

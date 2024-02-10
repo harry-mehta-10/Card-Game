@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Arial', sans-serif; 
-    background: url("./background.jpg");
+    background: url("./Assets/background.jpg");
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     user-select: none;
-    background-image: url('card.jpg');
+    background-image: url('./Assets/card.jpg');
     background-size: cover;
     position: relative;
     perspective: 1000px;
